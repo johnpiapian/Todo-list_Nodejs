@@ -1,7 +1,7 @@
 {
-  "name": "sut-tuang-p1",
+  "name": "todo-list",
   "version": "1.0.0",
-  "description": "Project 1",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itdev161-sp2020/Sut-Tuang-p1.git"
+    "url": "git+https://github.com/johnpiapian/Todo-list_Nodejs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/itdev161-sp2020/Sut-Tuang-p1/issues"
+    "url": "https://github.com/johnpiapian/Todo-list_Nodejs.git"
   },
-  "homepage": "https://github.com/itdev161-sp2020/Sut-Tuang-p1#readme",
+  "homepage": "https://github.com/johnpiapian/Todo-list_Nodejs.git#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.0",
