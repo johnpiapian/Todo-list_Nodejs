@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todo list</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+</head>
+<body>
+  <header>
+    <h1>Todo List</h1>
+  </header>  
+  <main>
+
+    <section>
+      <h2>Instruction</h2>
+      <p>Click add or press Enter to create tasks.</p>
+      <p>Click to Complete or Undo Completed tasks.</p>
+      <p>Shift+Click to delete tasks.</p>
+    </section>
+
+    <div id="todo-container">
+      <section id="input-list-container">
+        <input type="text" id="input-task" placeholder="Add new task..">
+        <button id="add-task">Add</button>
+      </section>
+      <section id="todo-list-container">
+        <ul id="active-list">
+          <!-- <li>Wash Car</li> -->
+        </ul>
+        <ul id="completed-list">
+          <!-- <li>Rake Leaves</li> -->
+        </ul>
+      </section>
+    </div>
+    
+  </main>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

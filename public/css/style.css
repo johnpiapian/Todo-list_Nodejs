@@ -1,0 +1,110 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: auto 0;
+  color:#555;
+}
+
+header {
+  text-align: center;
+  background-color: #555;
+  margin: 0;
+  padding: 25px;
+}
+
+header h1 {
+  padding: 0;
+  margin: 0;
+  color: #e6e6e6;
+}
+
+main {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#todo-container {
+  padding: 5px;
+  background-color: #e6e6e6;
+  border: 3px solid #bdbdbd;
+  border-radius: 15px;
+  transition: all 200ms ease-in-out;
+  max-width: 400px;
+}
+
+#todo-container:hover {
+  border-color: #cacaca;
+}
+
+#todo-container #input-list-container {
+  padding: 5px;
+}
+
+#input-list-container #input-task {
+  min-width: 300px;
+}
+
+#input-list-container #input-task,
+#input-list-container #add-task {
+  padding: 7px 10px;
+  outline: none;
+  border: none;
+  font-size: 1.5em;
+  border-radius: 10px;
+  transition: all 250ms;
+}
+
+#input-list-container #add-task:hover {
+  color: #818181;
+  /* background-color: #adadad; */
+}
+
+#todo-container #todo-list-container {
+  padding: 10px;
+}
+
+#todo-list-container #completed-list,
+#todo-list-container #active-list {
+  /* padding: 0px 10px; */
+  min-height: 50px;
+  font-size: 1.5em;
+}
+
+#todo-list-container #active-list {
+  list-style-type: circle;
+}
+
+#todo-list-container #completed-list {
+  /* color: brown; */
+  /* list-style-type: none; */
+  /* border-top: 1px solid black; */
+  padding-top: 20px;
+}
+
+#todo-list-container #active-list li:hover {
+  cursor: pointer;
+  text-decoration: line-through;
+  list-style-type: disc;
+}
+
+#todo-list-container #completed-list li {
+  text-decoration: line-through;
+}
+
+#todo-list-container #completed-list li:hover {
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: circle;
+}
+
+/* #todo-list-container #active-list li::before {
+  content: '';
+  display: inline-block;
+}
+
+#todo-list-container #completed-list li::before, 
+#todo-list-container #active-list li:hover::before {
+  content: '✓';
+} */
